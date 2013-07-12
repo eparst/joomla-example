@@ -28,7 +28,7 @@ Add MySQL support to your application
 
 Add this upstream Joomla repo
 
-    cd joomla
+    cd dutkovo
     git remote add upstream -m master git://github.com/eparst/joomla-example.git
     git pull -s recursive -X theirs upstream master
     # note that the git pull above can be used later to pull updates to Joomla
