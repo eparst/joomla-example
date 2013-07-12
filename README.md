@@ -20,11 +20,11 @@ Create an account at http://openshift.redhat.com/
 
 Create a php-5.3 application (you can call your application whatever you want)
 
-    rhc app create -a joomla -t php-5.3
+    rhc app create -a dutkovo -t php-5.3
 
 Add MySQL support to your application
 
-    rhc cartridge add -a joomla -c mysql-5.1
+    rhc cartridge add -a dutkovo -c mysql-5.1
 
 Add this upstream Joomla repo
 
@@ -39,7 +39,7 @@ Then push the repo upstream
 
 That's it, you can now checkout your application at (default admin account is admin/4dm1n):
 
-    http://joomla-$yournamespace.rhcloud.com
+    http://dutkovo-$yournamespace.rhcloud.com
 
 
 NOTES:
